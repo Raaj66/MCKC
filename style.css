@@ -1,7 +1,13 @@
 .navigation{
 	/* border: 10px solid black; */
-	padding: 20px;
+	font-family: sans-serif;
+	padding: 30px;
+	font-size: 2rem;
 	background-color: #f8f9fa;
+}
+.navigation .navbar-brand{
+	font-size: 3rem;
+	font-family: 'Notable',sans-serif;
 }
 
 .headerpart{
@@ -9,13 +15,13 @@
 }
 
 .headerpart img{
-	height: 900px;
+	height: 1000px;
 	width: 100%;
 }
 
 .imagepart{
 	margin-top: 15px;
-	height: 500px;
+	height: 550px;
 	width: 100%;
 	/* border: 5px solid blue; */
 	background-image: url('images/final2.gif');
@@ -24,19 +30,20 @@
 
 
 .newspart{
+	font-size: 1.5rem;
 	margin-top: 15px;
-	height: 600px;
+	height: 1000px;
 	width: 100%;
 	border: 1px solid black;
 }
 
 .map{
-	
+	/* height: 800px; */
 }
 
 .footer1{
 	text-align: center;
-	padding : 50px 0px 0px 30%;
+	padding : 50px 0px 0px 32%;
 	font-size : 2.5rem;
 	height: 500px;
 	width: 100%;
@@ -66,4 +73,10 @@
 .copyright p{
 	position: relative;
 	top: 45%;
+}
+
+@media only screen and (min-width: 1000px){
+	.headerpart img{
+		height: 100vh;
+	}
 }
